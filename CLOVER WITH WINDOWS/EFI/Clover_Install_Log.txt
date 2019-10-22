@@ -1,0 +1,41 @@
+
+Clover EFI installer log - Tue Oct 22 19:48:26 -03 2019
+Installer version: v2.5k r5097 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         500.1 GB   disk0
+   1:           Windows Recovery                         554.7 MB   disk0s1
+   2:                        EFI NO NAME                 209.7 MB   disk0s2
+   3:       Microsoft Basic Data                         413.4 GB   disk0s3
+   4:                  Apple_HFS OSX                     85.3 GB    disk0s4
+   5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:       Microsoft Basic Data HD                      1.0 TB     disk1s1
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +192.5 MB   disk2
+   1:                  Apple_HFS Stoplight Studio 1.2.0  192.5 MB   disk2s1
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r5058/2019-10-22-19h48/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

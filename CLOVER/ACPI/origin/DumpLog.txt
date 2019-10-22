@@ -1,0 +1,108 @@
+17:023  0:193  Found UEFI Acpi 2.0 RSDP at BC78E000
+17:023  0:000  Saving ACPI tables from RSDP BC78E000 to EFI\CLOVER\ACPI\origin ...
+17:023  0:000   BC78E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:023  0:000    (Xsdt: BC78E0A0, Rsdt: BC78E028)
+17:023  0:000    BC78E0A0: 'XSDT', 'LH43STAR', Rev: 1, Len: 196
+17:023  0:000    BC78E028: 'RSDT', 'LH43STAR', Rev: 1, Len: 116
+17:023  0:000    Tables in Xsdt: 20
+17:023  0:000    0. BC7A3370: 'FACP', 'LH43STAR', Rev: 6, Len: 276
+17:023  0:000        (Dsdt: BC78E1F8, Facs: BCBC7D00, XDsdt: BC78E1F8, XFacs: 0)
+17:023  0:000        BC78E1F8: 'DSDT', 'LH43STAR', Rev: 2, Len: 86389
+17:024  0:001        BCBC7D00: 'FACS', Ver: 2, Len: 64
+17:024  0:000    1. BC7A3488: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+17:024  0:000    2. BC7A3510: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+17:024  0:000    3. BC7A3558: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+17:024  0:000    4. BC7A3598: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+17:024  0:000    5. BC7A3910: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+17:024  0:000    6. BC7A39C0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+17:024  0:000    7. BC7A3A18: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+17:024  0:000    8. BC7A6B78: 'SSDT', 'PegSsdt', Rev: 2, Len: 9773
+17:024  0:000    9. BC7A91A8: 'HPET', 'KBL', Rev: 1, Len: 56
+17:024  0:000    10. BC7A91E0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+17:024  0:000    11. BC7A9228: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3812
+17:024  0:000    12. BC7AA110: 'LPIT', 'KBL', Rev: 1, Len: 148
+17:024  0:000    13. BC7AA1A8: 'WSMT', 'KBL', Rev: 1, Len: 40
+17:024  0:000    14. BC7AA1D0: 'DBGP', '', Rev: 1, Len: 52
+17:024  0:000    15. BC7AA208: 'DBG2', '', Rev: 0, Len: 84
+17:024  0:000    16. BC7AA260: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+17:024  0:000    17. BC7AA298: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:024  0:000    18. BC7AA348: 'DMAR', 'KBL', Rev: 1, Len: 204
+17:024  0:000    19. BC7AA418: 'SSDT', 'OptTabl', Rev: 1, Len: 6388
+17:024  0:000    Tables in Rsdt: 20
+17:024  0:000    0. BC78E170: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+17:024  0:000        (Dsdt: BC78E1F8, Facs: BCBC7CC0)
+17:024  0:000        BC78E1F8: 'DSDT', 'LH43STAR', Rev: 2, Len: 86389
+17:026  0:001        BCBC7CC0: 'FACS', Ver: 0, Len: 64
+17:026  0:000    1. BC7A3488: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+17:026  0:000    2. BC7A3510: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+17:026  0:000    3. BC7A3558: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+17:026  0:000    4. BC7A3598: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+17:026  0:000    5. BC7A3910: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+17:026  0:000    6. BC7A39C0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+17:026  0:000    7. BC7A3A18: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+17:026  0:000    8. BC7A6B78: 'SSDT', 'PegSsdt', Rev: 2, Len: 9773
+17:026  0:000    9. BC7A91A8: 'HPET', 'KBL', Rev: 1, Len: 56
+17:026  0:000    10. BC7A91E0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+17:026  0:000    11. BC7A9228: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3812
+17:026  0:000    12. BC7AA110: 'LPIT', 'KBL', Rev: 1, Len: 148
+17:026  0:000    13. BC7AA1A8: 'WSMT', 'KBL', Rev: 1, Len: 40
+17:026  0:000    14. BC7AA1D0: 'DBGP', '', Rev: 1, Len: 52
+17:026  0:000    15. BC7AA208: 'DBG2', '', Rev: 0, Len: 84
+17:026  0:000    16. BC7AA260: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+17:026  0:000    17. BC7AA298: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:026  0:000    18. BC7AA348: 'DMAR', 'KBL', Rev: 1, Len: 204
+17:026  0:000    19. BC7AA418: 'SSDT', 'OptTabl', Rev: 1, Len: 6388
+17:026  0:000  Found UEFI Acpi 1.0 RSDP at BC78E000
+17:026  0:000  Printing ACPI tables from RSDP BC78E000 ...
+17:026  0:000   BC78E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:026  0:000    (Xsdt: BC78E0A0, Rsdt: BC78E028)
+17:026  0:000    BC78E0A0: 'XSDT', 'LH43STAR', Rev: 1, Len: 196
+17:026  0:000    BC78E028: 'RSDT', 'LH43STAR', Rev: 1, Len: 116
+17:026  0:000    Tables in Xsdt: 20
+17:026  0:000    0. BC7A3370: 'FACP', 'LH43STAR', Rev: 6, Len: 276
+17:026  0:000        (Dsdt: BC78E1F8, Facs: BCBC7D00, XDsdt: BC78E1F8, XFacs: 0)
+17:026  0:000        BC78E1F8: 'DSDT', 'LH43STAR', Rev: 2, Len: 86389
+17:028  0:001        BCBC7D00: 'FACS', Ver: 2, Len: 64
+17:028  0:000    1. BC7A3488: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+17:028  0:000    2. BC7A3510: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+17:028  0:000    3. BC7A3558: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+17:028  0:000    4. BC7A3598: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+17:028  0:000    5. BC7A3910: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+17:028  0:000    6. BC7A39C0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+17:028  0:000    7. BC7A3A18: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+17:028  0:000    8. BC7A6B78: 'SSDT', 'PegSsdt', Rev: 2, Len: 9773
+17:028  0:000    9. BC7A91A8: 'HPET', 'KBL', Rev: 1, Len: 56
+17:028  0:000    10. BC7A91E0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+17:028  0:000    11. BC7A9228: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3812
+17:028  0:000    12. BC7AA110: 'LPIT', 'KBL', Rev: 1, Len: 148
+17:028  0:000    13. BC7AA1A8: 'WSMT', 'KBL', Rev: 1, Len: 40
+17:028  0:000    14. BC7AA1D0: 'DBGP', '', Rev: 1, Len: 52
+17:028  0:000    15. BC7AA208: 'DBG2', '', Rev: 0, Len: 84
+17:028  0:000    16. BC7AA260: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+17:028  0:000    17. BC7AA298: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:028  0:000    18. BC7AA348: 'DMAR', 'KBL', Rev: 1, Len: 204
+17:028  0:000    19. BC7AA418: 'SSDT', 'OptTabl', Rev: 1, Len: 6388
+17:028  0:000    Tables in Rsdt: 20
+17:028  0:000    0. BC78E170: 'FACP', 'LH43STAR', Rev: 2, Len: 132
+17:028  0:000        (Dsdt: BC78E1F8, Facs: BCBC7CC0)
+17:028  0:000        BC78E1F8: 'DSDT', 'LH43STAR', Rev: 2, Len: 86389
+17:029  0:001        BCBC7CC0: 'FACS', Ver: 0, Len: 64
+17:029  0:000    1. BC7A3488: 'APIC', 'LH43STAR', Rev: 3, Len: 132
+17:029  0:000    2. BC7A3510: 'FPDT', 'LH43STAR', Rev: 1, Len: 68
+17:029  0:000    3. BC7A3558: 'MCFG', 'LH43STAR', Rev: 1, Len: 60
+17:029  0:000    4. BC7A3598: 'SSDT', 'SataTabl', Rev: 1, Len: 882
+17:029  0:000    5. BC7A3910: 'FIDT', 'LH43STAR', Rev: 1, Len: 176
+17:029  0:000    6. BC7A39C0: 'MSDM', 'LH43STAR', Rev: 3, Len: 85
+17:029  0:000    7. BC7A3A18: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+17:029  0:000    8. BC7A6B78: 'SSDT', 'PegSsdt', Rev: 2, Len: 9773
+17:029  0:000    9. BC7A91A8: 'HPET', 'KBL', Rev: 1, Len: 56
+17:029  0:000    10. BC7A91E0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+17:029  0:000    11. BC7A9228: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3812
+17:029  0:000    12. BC7AA110: 'LPIT', 'KBL', Rev: 1, Len: 148
+17:029  0:000    13. BC7AA1A8: 'WSMT', 'KBL', Rev: 1, Len: 40
+17:029  0:000    14. BC7AA1D0: 'DBGP', '', Rev: 1, Len: 52
+17:029  0:000    15. BC7AA208: 'DBG2', '', Rev: 0, Len: 84
+17:029  0:000    16. BC7AA260: 'BGRT', 'LH43STAR', Rev: 1, Len: 56
+17:029  0:000    17. BC7AA298: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+17:029  0:000    18. BC7AA348: 'DMAR', 'KBL', Rev: 1, Len: 204
+17:029  0:000    19. BC7AA418: 'SSDT', 'OptTabl', Rev: 1, Len: 6388
